@@ -1,0 +1,5 @@
+feedPageObjectTest/FeedPageTest.class
+signInPageObjectTest/SignInPageTest.class
+homePageObjectTest/HomePageTest.class
+settingPageObjectTest/SettingPageTest.class
+dataDrivenTest/SighUpPageDataDrivenTest.class

@@ -1,0 +1,4 @@
+homePageObjects/HomePage.class
+feedPageObject/FeedPage.class
+singInPageObject/SignInPage.class
+settingPageObjects/SettingPage.class

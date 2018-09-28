@@ -1,1 +1,11 @@
+utility/GoogleSheetReader.class
+googleAPIs/GoogleSheetReader.class
 base/CommonAPI.class
+reporting/ExtentManager.class
+reporting/ApplicationLog.class
+reporting/ExtentTestManager.class
+utility/DataReader.class
+reporting/TestLogger.class
+dataProviderUtilityWithXlsReader/XlsDataReaderUtil.class
+dataProviderUtilityWithXlsReader/XlsReader.class
+utility/ConnectDB.class
