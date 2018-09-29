@@ -2,37 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43c127f0-a1fd-4649-b36b-3143ed511e43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedln/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/LinkedIn.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/main/java/feedPageObject/FeedPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedln/src/main/java/feedPageObject/FeedPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/main/java/homePageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedln/src/main/java/homePageObjects/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/main/java/settingPageObjects/SettingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedln/src/main/java/settingPageObjects/SettingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/main/java/singInPageObject/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedln/src/main/java/singInPageObject/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/test/java/feedPageObjectTest/FeedPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedln/src/test/java/feedPageObjectTest/FeedPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/test/java/homePageObjectTest/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedln/src/test/java/homePageObjectTest/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/test/java/settingPageObjectTest/SettingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedln/src/test/java/settingPageObjectTest/SettingPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/test/java/signInPageObjectTest/SignInPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedln/src/test/java/signInPageObjectTest/SignInPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/test/resources/LinkedInTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedln/src/test/resources/LinkedInTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/target/classes/feedPageObject/FeedPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/target/classes/homePageObjects/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/target/classes/settingPageObjects/SettingPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/target/classes/singInPageObject/SignInPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/target/test-classes/feedPageObjectTest/FeedPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/target/test-classes/homePageObjectTest/HomePageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/target/test-classes/settingPageObjectTest/SettingPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/target/test-classes/signInPageObjectTest/SignInPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/UnitTestConnectDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,7 +44,8 @@
         <counts>
           <entry key="class" value="3" />
           <entry key="iml" value="1" />
-          <entry key="java" value="135" />
+          <entry key="java" value="142" />
+          <entry key="server/students/students" value="1" />
           <entry key="xml" value="26" />
         </counts>
       </usages-collector>
@@ -79,20 +53,21 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="135" />
+          <entry key="JAVA" value="142" />
+          <entry key="MONGO" value="1" />
           <entry key="XML" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="49" />
-          <entry key="java" value="11453" />
+          <entry key="java" value="11474" />
           <entry key="xml" value="408" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11453" />
+          <entry key="JAVA" value="11474" />
           <entry key="PLAIN_TEXT" value="49" />
           <entry key="XML" value="408" />
         </counts>
@@ -106,31 +81,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-244">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Linkedln/src/test/java/signInPageObjectTest/ByInputFromXlsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Linkedln/src/test/java/signInPageObjectTest/SingInPageTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+            <state relative-caret-position="124">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,44 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Linkedln/src/main/java/singInPageObject/SignInPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
+            <state relative-caret-position="67">
               <caret line="26" column="39" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Linkedln/src/main/java/singInPageObject/ByInputFromXls.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -186,17 +104,70 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Linkedln/src/main/java/singInPageObject/SignInPage2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="44" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="120">
+              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Linkedln/src/test/java/signInPageObjectTest/SignInPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+            <state relative-caret-position="56">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/ConnectDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-21">
+              <caret line="172" selection-start-line="172" selection-end-line="172" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="105" column="1" lean-forward="true" selection-start-line="105" selection-start-column="1" selection-end-line="106" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3045#3054#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/UnitTestConnectDB.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -236,7 +207,6 @@
         <option value="$PROJECT_DIR$/LinkedIn/src/main/java/singInPageObject/SignInPage.java" />
         <option value="$PROJECT_DIR$/LinkedIn/src/test/java/homePageObjectTest/HomePageTest.java" />
         <option value="$PROJECT_DIR$/LinkedIn/src/test/java/signInPageObjectTest/SignInPageTest.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/utility/ConnectDB.java" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/Linkedln/pom.xml" />
@@ -267,6 +237,8 @@
         <option value="$PROJECT_DIR$/Linkedln/src/test/resources/LinkedInTestRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Linkedln/src/test/java/signInPageObjectTest/SingInPageTest2.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/Student.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" />
       </list>
     </option>
   </component>
@@ -288,7 +260,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1341" />
+    <option name="width" value="917" />
     <option name="height" value="817" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -338,16 +310,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation_Framework_Group2a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation_Framework_Group2a" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataProviderUtilityWithXlsReader" type="462c0819:PsiDirectoryNode" />
+              <item name="databases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Automation_Framework_Group2a" type="b2602c69:ProjectViewProjectNode" />
@@ -421,34 +384,36 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/shams/IdeaProjects/Automation_Framework_Group2a/LinkedIn/src/main/java/homePageObjects/HomePage.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538177414372" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538182289423" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="homePageObjects" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/LinkedIn" />
-      <recent name="$PROJECT_DIR$/Generic/browser-drivers" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="settingPageObjectTest" />
-      <recent name="loginPageObjectTest" />
-      <recent name="homePageObjectTest" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader" />
       <recent name="$PROJECT_DIR$/Linkedln1/src/test/resources" />
       <recent name="$PROJECT_DIR$/Linkedln1/src/test" />
       <recent name="$PROJECT_DIR$/LinkedIn" />
       <recent name="$PROJECT_DIR$/LinkedIn/src/test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Generic/src/main/java" />
+      <recent name="$PROJECT_DIR$/LinkedIn" />
+      <recent name="$PROJECT_DIR$/Generic/browser-drivers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="databases" />
+      <recent name="settingPageObjectTest" />
+      <recent name="loginPageObjectTest" />
+      <recent name="homePageObjectTest" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="homePageObjects" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -463,19 +428,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SingInPageTest2.loginTestWithDataProvider">
-    <configuration name="HomePageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Linkedln" />
+  <component name="RunManager" selected="Application.ConnectToMongoDB">
+    <configuration name="ConnectToMongoDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="databases.ConnectToMongoDB" />
+      <module name="Generic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homePageObjectTest.*" />
+          <option name="PATTERN" value="parser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homePageObjectTest" />
-      <option name="MAIN_CLASS_NAME" value="homePageObjectTest.HomePageTest" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -546,18 +508,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG./Users/shams/IdeaProjects/Automation_Framework_Group2a/Linkedln/src/test/resources/LinkedInTestRunner.xml" />
-      <item itemvalue="TestNG.HomePageTest" />
       <item itemvalue="TestNG.HomePageTest.testCarrerLink" />
       <item itemvalue="TestNG.SingInPageTest2.loginTestWithDataProvider" />
       <item itemvalue="TestNG.HomePageTest.testClickUniversityLink" />
+      <item itemvalue="Application.ConnectToMongoDB" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConnectToMongoDB" />
         <item itemvalue="TestNG.SingInPageTest2.loginTestWithDataProvider" />
         <item itemvalue="TestNG./Users/shams/IdeaProjects/Automation_Framework_Group2a/Linkedln/src/test/resources/LinkedInTestRunner.xml" />
         <item itemvalue="TestNG.HomePageTest.testClickUniversityLink" />
         <item itemvalue="TestNG.HomePageTest.testCarrerLink" />
-        <item itemvalue="TestNG.HomePageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -607,10 +569,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1341" height="817" extended-state="0" />
+    <frame x="0" y="23" width="917" height="817" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49929675" visible="true" weight="0.22247884" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49929675" visible="true" weight="0.36571428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -619,12 +581,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5007032" side_tool="true" weight="0.27058825" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32831737" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24275862" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32827586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24760602" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24689655" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32918397" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.10361446" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.11764706" />
@@ -634,7 +596,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Mongo Explorer" order="6" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" weight="0.32948422" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3299285" />
     </layout>
@@ -700,10 +662,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedIn/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/Student.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/WebElement.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -775,13 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/ConnectDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -814,13 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linkedln/src/test/java/signInPageObjectTest/SignInPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -913,20 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linkedln/src/main/java/singInPageObject/ByInputFromXls.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="670">
@@ -934,26 +864,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Linkedln/src/main/java/singInPageObject/SignInPage.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="39" />
+        <state relative-caret-position="-394">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Linkedln/src/main/java/singInPageObject/SignInPage2.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="270">
+          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linkedln/src/main/java/singInPageObject/SignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Linkedln/src/test/java/signInPageObjectTest/SingInPageTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        <state relative-caret-position="124">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linkedln/src/main/java/singInPageObject/SignInPage2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linkedln/src/test/java/signInPageObjectTest/SignInPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/ConnectDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/UnitTestConnectDB.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="105" column="1" lean-forward="true" selection-start-line="105" selection-start-column="1" selection-end-line="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3045#3054#0" expanded="true" />
           </folding>
         </state>
       </provider>
